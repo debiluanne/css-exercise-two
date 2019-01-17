@@ -1,13 +1,54 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #DCDCDC;
+  color: #000000;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #000000;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:link { color:#FFFFFF; }
+a:visited { color:#D4D3D3; }
+a:hover { color:#98AAF2; font-weight: bold;}
+a:active { color:#0070BD; } /* selected */
+
+h1 {
+  font-size: 3em;
+  line-height: 2;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+figcaption {
+  font-size: .9em;
+
+}
+
+p {
+margin-bottom: 1.25em;
+}
+
+.author {
+  line-height: 1.5em;
+  font-style: oblique;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .logo {
