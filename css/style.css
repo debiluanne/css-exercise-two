@@ -1,7 +1,7 @@
 body {
   background-color: #DCDCDC;
   color: #000000;
-  font-size: 14px;
+  font-size: 16px;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
@@ -24,24 +24,26 @@ a:hover { color:#98AAF2; font-weight: bold;}
 a:active { color:#0070BD; } /* selected */
 
 h1 {
-  font-size: 3em;
-  line-height: 2;
+  font-size: 2.25em;
+  line-height: 1em;
   font-weight: bold;
+  margin-bottom: .75em;
 }
 
 h3 {
   font-size: 1.5em;
-  line-height: 1.5em;
+  line-height: 1.25em;
   font-weight: bold;
+  margin-bottom: 1.25em;
 }
 
 figcaption {
   font-size: .9em;
-
+  margin-bottom: 1.25em;
 }
 
 p {
-margin-bottom: 1.25em;
+  margin-bottom: 1.25em;
 }
 
 .author {
@@ -89,5 +91,5 @@ article {
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
 }
